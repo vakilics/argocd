@@ -5,7 +5,7 @@ metadata:
   name: biotronik-welcome
   namespace: default
 spec:
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
       app: biotronik-welcome
@@ -56,7 +56,7 @@ data:
       </style>
     </head>
     <body>
-      <h1>Welcome to the Biotronik world!</h1>
+      <h1><marquee>Willkommen in der Welt von BIOTRONIK</marquee></h1>
     </body>
     </html>
 ---
